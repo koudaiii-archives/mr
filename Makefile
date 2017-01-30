@@ -8,7 +8,7 @@ LDFLAGS   := -ldflags="-s -w -X \"main.Version=$(VERSION)\" -X \"main.Revision=$
 DIST_DIRS := find * -type d -exec
 
 DOCKER_REPOSITORY := quay.io
-DOCKER_IMAGE_NAME := $(DOCKER_REPOSITORY)/koudaiii/mg
+DOCKER_IMAGE_NAME := $(DOCKER_REPOSITORY)/koudaiii/$(NAME)
 DOCKER_IMAGE_TAG  ?= latest
 DOCKER_IMAGE      := $(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG)
 
