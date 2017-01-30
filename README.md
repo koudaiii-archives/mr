@@ -1,2 +1,2 @@
-# mg
-Template Monthly Goal
+# mr
+Template Monthly Result
