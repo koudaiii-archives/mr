@@ -1,4 +1,4 @@
-NAME      := mg
+NAME      := mr
 VERSION   := v0.0.1
 REVISION  := $(shell git rev-parse --short HEAD)
 

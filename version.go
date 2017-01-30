@@ -10,5 +10,5 @@ var (
 )
 
 func printVersion() {
-	fmt.Println("mg version " + Version + ", build " + Revision)
+	fmt.Println("mr version " + Version + ", build " + Revision)
 }
